@@ -2,7 +2,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 10vh 40vh 40vh;
+  grid-template-rows: 12vh 40vh 40vh;
 	text-align: center;
 	margin: 0 auto;
   color: black;
