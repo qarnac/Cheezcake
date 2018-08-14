@@ -14,6 +14,10 @@ class HomePage(webapp2.RequestHandler):
 
 class AboutPage(webapp2.RequestHandler):
     def get(self):
+<<<<<<< HEAD
+=======
+
+>>>>>>> 17ea98ec9dcaef79b917ec738b87bdcb53176aee
         mypage = env.get_template('templates/about.html')
         self.response.write(mypage.render())
 
