@@ -13,7 +13,13 @@ class HomePage(webapp2.RequestHandler):
         mypage = env.get_template('templates/home.html')
         self.response.write(mypage.render())
 
+class AboutPage(webapp2.RequestHandler):
+    def get(self):
+
+        mypage = env.get_template('templates/about.html')
+        self.response.write(mypage.render())
+
 app =   webapp2.WSGIApplication([
     ('/', HomePage),
+    ('/aboutus', AboutPage)
 ], debug=True)
- 
