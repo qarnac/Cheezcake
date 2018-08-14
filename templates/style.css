@@ -2,8 +2,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 12vh 40vh 40vh;
+<<<<<<< HEAD
   text-align: center;
   margin: 0 auto;
+=======
+	text-align: center;
+	margin: 0 auto;
+>>>>>>> c95ed949817207528ff2bc1f009423e693490927
   color: black;
   grid-gap: 20px 20px;
 }
