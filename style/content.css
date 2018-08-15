@@ -4,12 +4,12 @@
   grid-template-rows: 12vh 10vh 70vh;
   text-align: center;
   margin: 0 auto;
-  color: black;
+  color: white;
   grid-gap: 20px 20px;
 }
 
 .titlebar {
-  background-color: #8EA4D2;
+  background-color: black;
   grid-column: 1 / 4;
 }
 
