@@ -17,7 +17,31 @@ class AboutPage(webapp2.RequestHandler):
         mypage = env.get_template('templates/about.html')
         self.response.write(mypage.render())
 
+class MusicPage(webapp2.RequestHandler):
+    def get(self):
+        mypage = env.get_template('templates/music.html')
+        self.response.write(mypage.render())
+
+class MoviePage(webapp2.RequestHandler):
+    def get(self):
+        mypage = env.get_template('templates/movie.html')
+        self.response.write(mypage.render())
+
+class GamePage(webapp2.RequestHandler):
+    def get(self):
+        mypage = env.get_template('templates/game.html')
+        self.response.write(mypage.render())
+
+class BookPage(webapp2.RequestHandler):
+    def get(self):
+        mypage = env.get_template('templates/book.html')
+        self.response.write(mypage.render())
+
 app =   webapp2.WSGIApplication([
     ('/', HomePage),
-    ('/aboutus', AboutPage)
+    ('/aboutus', AboutPage),
+    ('/music', MusicPage),
+    ('/movie', MoviePage),
+    ('/game', GamePage),
+    ('/book', BookPage)
 ], debug=True)
