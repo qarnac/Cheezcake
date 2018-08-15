@@ -32,6 +32,8 @@ background-color: #8EA4D2;
 }
 
 .box4 {
+  background-image: url(../images/book.jpg);
+  background-size: 100% 100%;
   background-color: #B392AC;
 }
 
