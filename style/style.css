@@ -14,17 +14,21 @@ background-color: #8EA4D2;
 }
 
 .box1 {
-  background-image: url(https://www.apple.com/v/apple-music/h/images/shared/og_image.png?201808060701);
+  background-image: url(../images/music.png);
   background-size: 100% 100%;
   background-color: #F7D1CD;
 }
 
 .box2 {
+  background-image: url(../images/movie2.jpg);
+  background-size: 100% 100%;
   background-color: #E8C2CA;
 }
 
 .box3 {
-  background-color: #D1B3C4;
+  background-image: url(../images/games.png);
+  background-size: 100% 100%;
+  background-color: white;
 }
 
 .box4 {
