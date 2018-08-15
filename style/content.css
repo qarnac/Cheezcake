@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 12vh 10vh 70vh;
+  text-align: center;
+  margin: 0 auto;
+  color: black;
+  grid-gap: 20px 20px;
+}
+
+.titlebar {
+  background-color: #8EA4D2;
+  grid-column: 1 / 4;
+}
+
+.colname1 {
+  background-color: #F7D1CD;
+}
+
+.colname2 {
+  background-color: #F7D1CD;
+}
+
+.colname3 {
+  background-color: #F7D1CD;
+}
+
+.col1 {
+  background-color: #F7D1CD;
+}
+
+.col2 {
+  background-color: #F7D1CD;
+}
+
+.col3 {
+  background-color: #F7D1CD;
+}
