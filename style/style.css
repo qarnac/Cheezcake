@@ -40,3 +40,7 @@ background-color: black;
 body {
   background-color: #CDF7EA;
 }
+
+.effects{
+  box-shadow: 3px 4px 2px rgba(0,0,0,0.4);
+}
