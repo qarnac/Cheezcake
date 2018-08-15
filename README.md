@@ -1,4 +1,4 @@
-# Cheezcake
+# Cheezcake Project
 Adrian, Darshan, Roman, Thao, Veronica
 
 # Link
