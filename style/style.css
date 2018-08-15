@@ -26,7 +26,9 @@ background-color: #8EA4D2;
 }
 
 .box3 {
-  background-color: #D1B3C4;
+  background-image: url(../images/games.png);
+  background-size: 100% 100%;
+  background-color: white;
 }
 
 .box4 {
