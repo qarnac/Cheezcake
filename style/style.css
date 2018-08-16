@@ -5,7 +5,7 @@
   text-align: center;
   margin: 0 auto;
   color: white;
-  grid-gap: 20px 20px;
+  grid-gap: 25px 25px;
 }
 
 
@@ -16,13 +16,26 @@
   height: 100%;
 }
 
+
 #logo {
   position: absolute;
-  top: 0px;
-  left: 15px;
-  height: 100px;
-  width: 150px;
+  flex: 1 1 0;
+  height: 12vh;
+  width: auto;
+  z-index: 200;
+} */
+
+#trendz{
+  width:100vw;
+  align-self: center;
+  font-size: 100%
 }
+
+#box{
+  flex-grow: 1;
+  align-self: right;
+}
+
 
 .music {
   background-color: white;
