@@ -27,19 +27,19 @@ class MusicPage(webapp2.RequestHandler):
         q = DataItem.query(DataItem.category == 'music')
         q = q.order(DataItem.ranking)
         string = []
-        for p in q.fetch():
+        for p in q.fetch(10):
             string.append((str(p.ranking) + ": " + p.title + " by " + p.info))
 
         q2 = DataItem.query(DataItem.category == 'music-us')
         q2 = q2.order(DataItem.ranking)
         string2 = []
-        for p in q2.fetch():
+        for p in q2.fetch(10):
             string2.append((str(p.ranking) + ": " + p.title + " by " + p.info))
 
         q3 = DataItem.query(DataItem.category == 'music-artists')
-        q3 = q3.order(DataItem.ranking)
+        q3 = q3 .order(DataItem.ranking)
         string3 = []
-        for p in q3.fetch():
+        for p in q3.fetch(10):
             string3.append((str(p.ranking) + ": " + p.title))
 
         self.response.out.write(mypage.render({'elements1': string, 'elements2': string2, 'elements3':string3}))
