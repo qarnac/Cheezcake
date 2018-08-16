@@ -8,11 +8,20 @@
   grid-gap: 20px 20px;
 }
 
+
 .titlebar {
   background-color: black;
   grid-column: 1 / 3;
   width: 100%;
   height: 100%;
+}
+
+#logo {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  height: 100px;
+  width: 150px;
 }
 
 .music {
