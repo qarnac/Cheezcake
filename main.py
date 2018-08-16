@@ -28,8 +28,7 @@ class MusicPage(webapp2.RequestHandler):
 
         string = []
         for p in q.fetch():
-            string = str(p.ranking) + ": " + p.title + " by " + p.info
-            logging.info(string)
+            string.append((str(p.ranking) + ": " + p.title + " by " + p.info))
 
         self.response.out.write(mypage.render({'elements1': string}))
 
