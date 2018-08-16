@@ -36,3 +36,8 @@
 .col3 {
   background-color: #F7D1CD;
 }
+
+body{
+  margin: 0;
+  background-color: white;
+}
