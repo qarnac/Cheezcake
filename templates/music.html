@@ -13,27 +13,56 @@
       <h1>Music</h1>
     </div>
 
+    <!-- column1 -->
+
     <div class="colname1">
-      <h3>col1</h3>
-    </div>
-
-    <div class="colname2">
-      <h3>col2</h3>
-    </div>
-
-    <div class="colname3">
-      <h3>col3</h3>
+      <h3>Top 10 Hits</h3>
     </div>
 
     <div class="col1">
+      <ul>
+        {% for item in elements1 %}
+          <li> {{item}} </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <!-- column2 -->
+
+    <div class="colname2">
+      <h3>{{col2}}</h3>
     </div>
 
     <div class="col2">
 
     </div>
 
-    <div class="col3">
+    <!--     generate list
+    {% for i in test %}
+    <h1> {{i}} </h1>
+    {% endfor %}
+   -->
 
+    <!-- column3  -->
+
+    <div class="colname3">
+      <h3>{{col3}}</h3>
+    </div>
+
+
+    <div class="col3">
+      <ol>
+        <li>{{c3i1}}</li>
+        <li>{{c3i2}}</li>
+        <li>{{c3i3}}</li>
+        <li>{{c3i4}}</li>
+        <li>{{c3i5}}</li>
+        <li>{{c3i6}}</li>
+        <li>{{c3i7}}</li>
+        <li>{{c3i8}}</li>
+        <li>{{c3i9}}</li>
+        <li>{{c3i10}}</li>
+      </ol>
     </div>
 
 

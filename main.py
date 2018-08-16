@@ -2,6 +2,7 @@ import os
 import jinja2
 import webapp2
 from models import DataItem
+import logging
 
 
 env = jinja2.Environment(
@@ -22,7 +23,14 @@ class AboutPage(webapp2.RequestHandler):
 class MusicPage(webapp2.RequestHandler):
     def get(self):
         mypage = env.get_template('templates/music.html')
-        self.response.write(mypage.render())
+        q = DataItem.query(DataItem.category == 'music')
+        q = q.order(DataItem.ranking)
+
+        string = []
+        for p in q.fetch():
+            string.append((str(p.ranking) + ": " + p.title + " by " + p.info))
+
+        self.response.out.write(mypage.render({'elements1': string}))
 
 class MoviePage(webapp2.RequestHandler):
     def get(self):
@@ -51,9 +59,11 @@ class dataDev(webapp2.RequestHandler):
         info = self.request.get('info')
         imgsrc = self.request.get('imgsrc')
 
-        newItem = DataItem(category=cat, ranking=ranking, title=title, info=info, imgrsrc=imgsrc)
+        newItem = DataItem(category=cat, ranking=ranking, title=title, info=info, imgsrc=imgsrc)
         newItem.put()
 
+        mypage = env.get_template('templates/datadev.html')
+        self.response.write(mypage.render())
 
 app =   webapp2.WSGIApplication([
     ('/', HomePage),
