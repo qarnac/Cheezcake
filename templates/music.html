@@ -30,39 +30,30 @@
     <!-- column2 -->
 
     <div class="colname2">
-      <h3>{{col2}}</h3>
+      <h3>Top 10 U.S.</h3>
     </div>
 
     <div class="col2">
-
+      <ul>
+        {% for item in elements2 %}
+          <li> {{item}} </li>
+        {% endfor %}
+      </ul>
     </div>
-
-    <!--     generate list
-    {% for i in test %}
-    <h1> {{i}} </h1>
-    {% endfor %}
-   -->
 
     <!-- column3  -->
 
     <div class="colname3">
-      <h3>{{col3}}</h3>
+      <h3>Top Artists</h3>
     </div>
 
 
     <div class="col3">
-      <ol>
-        <li>{{c3i1}}</li>
-        <li>{{c3i2}}</li>
-        <li>{{c3i3}}</li>
-        <li>{{c3i4}}</li>
-        <li>{{c3i5}}</li>
-        <li>{{c3i6}}</li>
-        <li>{{c3i7}}</li>
-        <li>{{c3i8}}</li>
-        <li>{{c3i9}}</li>
-        <li>{{c3i10}}</li>
-      </ol>
+      <ul>
+        {% for item in elements3 %}
+          <li> {{item}} </li>
+        {% endfor %}
+      </ul>
     </div>
 
 
