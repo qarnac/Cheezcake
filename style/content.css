@@ -1,7 +1,7 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 14vh 10vh 70vh;
+  grid-template-rows: 16vh 10vh auto;
   text-align: center;
   margin: 0 auto;
   color: white;
@@ -52,19 +52,19 @@ h1{
 .col1 {
   background-color: #030200;
   box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.45);
-  font-size: 1em;
+  font-size: 1.2  em;
 }
 
 .col2 {
   background-color: #030200;
   box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.45);
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .col3 {
   background-color: #030200;
   box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.45);
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 body{
@@ -78,5 +78,6 @@ ul{
 li{
   display: block;
   padding: 15px;
-  color: rgb(103, 103, 103);
+  color: rgb(230, 230, 230);
+  font-size: 1.2em;
 }
