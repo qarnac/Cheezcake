@@ -46,6 +46,7 @@
 
 .music:hover {
   opacity: 0.5;
+  transition: 0.3s;
 }
 
 
@@ -58,6 +59,7 @@
 
 .movie:hover {
   opacity: 0.5;
+  transition: 0.3s;
 }
 
 .game {
@@ -69,6 +71,7 @@
 
 .game:hover {
   opacity: 0.5;
+  transition: 0.3s;
 }
 
 .book {
@@ -80,6 +83,7 @@
 
 .book:hover {
   opacity: 0.5;
+  transition: 0.3s;
 }
 
 body {
