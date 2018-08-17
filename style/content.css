@@ -7,7 +7,6 @@
   color: white;
   grid-gap: 20px 20px;
   font-size: 1rem;
-  font-family: 'Montserrat';
 }
 
 .effects{
@@ -18,12 +17,13 @@
   text-align: center;
   background-color: black;
   grid-column: 1 / 4;
-  font-size: 2em;
-  font-weight: 300;
-  padding-bottom: 30px;
-  word-wrap: break-word;
 
 }
+
+h1{
+  position: absolute;
+}
+
 
 .colname1 {
   background-color: #030200;
