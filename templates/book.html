@@ -14,67 +14,44 @@
     </div>
 
     <div class="colname1">
-      <h3>{{col1}}</h3>
+      <h3>Top Books</h3>
     </div>
 
     <div class="col1">
-      <ol>
-        <ol>
-          <li>{{c1i1}}</li>
-          <li>{{c1i2}}</li>
-          <li>{{c1i3}}</li>
-          <li>{{c1i4}}</li>
-          <li>{{c1i5}}</li>
-          <li>{{c1i6}}</li>
-          <li>{{c1i7}}</li>
-          <li>{{c1i8}}</li>
-          <li>{{c1i9}}</li>
-          <li>{{c1i10}}</li>
-        </ol>
-      </ol>
+      <ul>
+        {% for item in elements1 %}
+          <li> {{item}} </li>
+        {% endfor %}
+      </ul>
     </div>
 
     <!-- column2 -->
 
     <div class="colname2">
-      <h3>{{col2}}</h3>
+      <h3>Top U.S.</h3>
     </div>
 
     <div class="col2">
-      <ol>
-        <li>{{c2i1}}</li>
-        <li>{{c2i2}}</li>
-        <li>{{c2i3}}</li>
-        <li>{{c2i4}}</li>
-        <li>{{c2i5}}</li>
-        <li>{{c2i6}}</li>
-        <li>{{c2i7}}</li>
-        <li>{{c2i8}}</li>
-        <li>{{c2i9}}</li>
-        <li>{{c2i10}}</li>
-      </ol>
+      <ul>
+        {% for item in elements2 %}
+          <li> {{item}} </li>
+        {% endfor %}
+      </ul>
     </div>
 
     <!-- column3  -->
 
     <div class="colname3">
-      <h3>{{col3}}</h3>
+      <h3>Authors</h3>
     </div>
 
 
     <div class="col3">
-      <ol>
-        <li>{{c3i1}}</li>
-        <li>{{c3i2}}</li>
-        <li>{{c3i3}}</li>
-        <li>{{c3i4}}</li>
-        <li>{{c3i5}}</li>
-        <li>{{c3i6}}</li>
-        <li>{{c3i7}}</li>
-        <li>{{c3i8}}</li>
-        <li>{{c3i9}}</li>
-        <li>{{c3i10}}</li>
-      </ol>
+      <ul>
+        {% for item in elements3 %}
+          <li> {{item}} </li>
+        {% endfor %}
+      </ul>
     </div>
 
 
