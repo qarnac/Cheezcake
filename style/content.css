@@ -6,6 +6,8 @@
   margin: 0 auto;
   color: white;
   grid-gap: 20px 20px;
+  font-size: 1.5em;
+  font-family: Lucida;
 }
 
 .titlebar {
@@ -17,30 +19,36 @@
   background-color: #F7D1CD;
   grid-column: 1;
   grid-row: 2;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.45);
 }
 
 .colname2 {
   background-color: #F7D1CD;
   grid-column: 2;
   grid-row: 2;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.45);
 }
 
 .colname3 {
   background-color: #F7D1CD;
   grid-column: 3;
   grid-row: 2;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.45);
 }
 
 .col1 {
   background-color: #F7D1CD;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.45);
 }
 
 .col2 {
   background-color: #F7D1CD;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.45);
 }
 
 .col3 {
   background-color: #F7D1CD;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.45);
 }
 
 body{
@@ -52,5 +60,5 @@ ul{
 }
 
 li{
-  display: block;  
+  display: block;
 }
