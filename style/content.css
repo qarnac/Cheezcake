@@ -16,7 +16,7 @@
 
 .titlebar {
   text-align: center;
-  background-color: white;
+  background-color: black;
   grid-column: 1 / 4;
   font-size: 2em;
   font-weight: 300;
