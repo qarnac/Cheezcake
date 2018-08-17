@@ -1,62 +1,103 @@
-.gridcontainer{
+.gridcontainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 12vh 15vh 15vh 15vh 15vh 15vh;
   text-align: center;
   margin: 0 auto;
-  color: white;
+  color: black;
   grid-gap: 20px 20px;
-
 }
 
-.aboutheader{
+.aboutheader {
   grid-column: 1/5;
-  background-color: black;
+  background-color: white;
+  opacity: 0.5;
 
 }
 
-.name1{
-    grid-column: 1/1;
-  background-color:#258EA6;
+#gridbg {
+  background-image: url("/images/grouppic.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.name2{
-    grid-column: 1/1;
-  background-color:#549F93;
+.name1 {
+  grid-column: 1/1;
+  /* background-color: #258EA6; */
+  background-color: white;
+  opacity: 0.5;
 }
 
-.name3{
-    grid-column: 1/1;
-  background-color:#9FAF90;
+.name2 {
+  grid-column: 1/1;
+  /* background-color: #549F93; */
+  background-color: white;
+  opacity: 0.5;
+
 }
 
-.name4{
-    grid-column: 1/1;
-  background-color:#E2B1B1;
+.name3 {
+  grid-column: 1/1;
+  /* background-color: #9FAF90; */
+  background-color: white;
+  opacity: 0.5;
+
 }
 
-.name5{
-    grid-column: 1/1;
-  background-color:#DBD8B3;
+.name4 {
+  grid-column: 1/1;
+  /* background-color: #E2B1B1; */
+  background-color: white;
+  opacity: 0.5;
+
 }
 
-.hover1{
+.name5 {
+  grid-column: 1/1;
+  /* background-color: #DBD8B3; */
+  background-color: white;
+  opacity: 0.5;
+
+}
+
+.social1 {
   grid-column: 2/5;
-  background-color:#258EA6;
+  /* background-color: #258EA6; */
+  background-color: white;
+  opacity: 0.5;
+
 }
-.hover2{
+
+.social2 {
   grid-column: 2/5;
-  background-color: #549F93;
+  /* background-color: #549F93; */
+  background-color: white;
+  opacity: 0.5;
+
 }
-.hover3{
+
+.social3 {
   grid-column: 2/5;
-  background-color: #9FAF90;
+  /* background-color: #9FAF90; */
+  background-color: white;
+  opacity: 0.5;
+
 }
-.hover4{
+
+.social4 {
   grid-column: 2/5;
-  background-color: #E2B1B1;
+  /* background-color: #E2B1B1; */
+  background-color: white;
+  opacity: 0.5;
+
 }
-.hover5{
+
+.social5 {
   grid-column: 2/5;
-  background-color: #DBD8B3;
+  /* background-color: #DBD8B3; */
+  background-color: white;
+  opacity: 0.5;
+
 }
