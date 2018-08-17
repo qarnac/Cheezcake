@@ -141,6 +141,7 @@ class dataDev(webapp2.RequestHandler):
         self.response.write(mypage.render())
 
 app =   webapp2.WSGIApplication([
+    ('/', HomePage),
     ('/home', HomePage),
     ('/aboutus', AboutPage),
     ('/music', MusicPage),
