@@ -9,7 +9,8 @@
 }
 
 .titlebar {
-  background-color: black;
+  text-align: center;
+  background-color: white;
   grid-column: 1 / 4;
 }
 
@@ -52,5 +53,5 @@ ul{
 }
 
 li{
-  display: block;  
+  display: block;
 }
